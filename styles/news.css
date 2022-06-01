@@ -1,0 +1,30 @@
+.new_date{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 300%;
+    /* or 41px */
+
+    letter-spacing: 0.025em;
+}
+
+.new{
+    font-family: 'Muller';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 115%;
+    /* or 41px */
+
+    letter-spacing: 0.025em;
+}
+
+.news_list{
+    height: 100%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 150px;
+	display: flex;
+    flex-direction: column;
+}
