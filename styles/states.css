@@ -1,0 +1,77 @@
+.page_title{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+
+    /* 1 */
+
+    color: #393939;
+
+}
+
+.states_list{
+    height: 100%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 150px;
+}
+
+.page_description{
+    font-family: 'Muller';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 115%;
+    margin-top: 30px;
+    /* or 28px */
+
+    letter-spacing: 0.025em;
+
+    color: #000000;
+}
+
+.state{
+    margin-top: 100px;
+}
+
+.text__text{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 115%;
+    /* or 28px */
+
+    letter-spacing: 0.025em;
+
+    color: #000000;
+}
+
+.text__title{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 115%;
+    /* identical to box height, or 37px */
+    
+    letter-spacing: 0.025em;
+    
+    color: #000000;
+}
+
+.state{
+    display: flex;
+    flex-direction: row;
+}
+
+.state__text{
+    flex: 1;
+}
+
+.state__img{
+    flex: 1;
+    margin-left: 10px;
+}
