@@ -1,0 +1,143 @@
+.donate_box{
+    margin-top: 150px;
+    height: 100%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+    box-sizing: content-box;
+}
+
+.title{
+
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    /* identical to box height, or 46px */
+
+    letter-spacing: 0.025em;
+
+    color: #000000;
+}
+
+.text{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 99%;
+    /* or 24px */
+    margin-top: 70px;
+
+    letter-spacing: 0.025em;
+
+    color: #000000;
+}
+
+.pair{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    height: max-content;
+    box-sizing: content-box;
+}
+
+.buttons{
+    flex: 1;
+    box-sizing: content-box;
+}
+
+.description{
+        font-family: Muller;
+    flex: 1;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 99%;
+    /* or 24px */
+
+    letter-spacing: 0.025em;
+
+    color: #000000;
+}
+
+.d_text{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 99%;
+    /* identical to box height, or 28px */
+
+    letter-spacing: 0.025em;
+
+    color: #000000;
+}
+
+.radio_btn{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+input{
+    display: none;
+}
+
+.radio_btn input[type=radio]:checked + label {
+	background: #FF3D54;
+    color: #FFFFFF;
+}
+
+.radio_btn label{
+    border: 1px solid #888;
+    padding: 20px 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 99%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: 0.025em;
+    font-family: Muller;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    box-sizing: content-box;
+    height: max-content;
+}
+
+.suma{
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    box-sizing: content-box;
+}
+
+.donate_btn{
+    background: #FF3D54;
+    margin-top: 50px;
+    box-sizing: content-box;
+    color: #FFFFFF;
+    padding: 20px 80px;
+    width: min-content;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 99%;
+    /* identical to box height, or 22px */
+
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: #FFFFFF;     
+}
+
+a{
+    text-decoration: none;
+    color: #393939 !important;
+}

@@ -286,6 +286,7 @@ color: #393939;
 
 a{
 text-decoration: none;
+    color: #393939 !important;
 }
 .xxy{
 	flex: 0;

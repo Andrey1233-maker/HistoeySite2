@@ -67,6 +67,11 @@
     flex-direction: row;
 }
 
+a{
+    text-decoration: none;
+    color: #393939 !important;
+}
+
 .state__text{
     flex: 1;
 }

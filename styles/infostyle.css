@@ -13,6 +13,11 @@
 	flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+    color: #393939 !important;
+}
+
 .photoP{
 	flex: 2;
 	display: flex;
